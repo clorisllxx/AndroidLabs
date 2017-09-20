@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ButtonText">I\’m a button</string>
+    <string name="hello_message">Login</string>
+    <string name="string1">password</string>
+    <string name="radio_Button">RadioButton</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="switch1">What else to do?</string>
+    <string name="ImageButton">ic_menu_camera</string>
+</resources>

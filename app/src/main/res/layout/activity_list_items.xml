@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:layout_columnWeight="1"
+    android:gravity="fill"
+
+    tools:context="com.example.salun.androidlabs.ListItemsActivity">
+    <RadioButton android:id="@+id/radio_pirates"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="RadioButton"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_meat"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:layout_width="139dp" />
+
+    <Switch
+        android:id="@+id/simpleSwitch"
+        android:layout_height="wrap_content"
+        android:text="what else to do?"
+        android:layout_width="200dp" />
+
+    <ImageButton
+        android:id="@+id/ImageButton"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_width="142dp" />
+</GridLayout>
