@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action1"
+        android:icon="@drawable/show"
+        android:orderInCategory="101"
+        android:title="@string/option1Text"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action2"
+        android:icon="@drawable/back"
+        android:orderInCategory="102"
+        android:title="@string/option2Text"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/action3"
+        android:icon="@drawable/edit"
+        android:orderInCategory="103"
+        app:showAsAction="always"
+        android:title="@string/option3Text">
+    </item>
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        android:title="@string/aboutText">
+    </item>
+</menu>
